@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Sagar&#39;s Blog</title>
-    <link>https://sagar-viradiya.dev/posts/</link>
+    <link>https://sagarviradiya.dev/posts/</link>
     <description>Recent content in Posts on Sagar&#39;s Blog</description>
     <image>
       <title>Sagar&#39;s Blog</title>
-      <url>https://sagar-viradiya.dev/images/gde_badge_round.png</url>
-      <link>https://sagar-viradiya.dev/images/gde_badge_round.png</link>
+      <url>https://sagarviradiya.dev/images/gde_badge_round.png</url>
+      <link>https://sagarviradiya.dev/images/gde_badge_round.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 16 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://sagar-viradiya.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://sagarviradiya.dev/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Automating Baseline Profile end-to-end on CI</title>
-      <link>https://sagar-viradiya.dev/posts/automating-baseline-profile/</link>
+      <link>https://sagarviradiya.dev/posts/automating-baseline-profile/</link>
       <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://sagar-viradiya.dev/posts/automating-baseline-profile/</guid>
+      <guid>https://sagarviradiya.dev/posts/automating-baseline-profile/</guid>
       <description>Baseline profile CI automation</description>
     </item>
   </channel>

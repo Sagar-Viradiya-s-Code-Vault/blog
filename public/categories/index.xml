@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on Sagar&#39;s Blog</title>
-    <link>https://sagar-viradiya.dev/categories/</link>
+    <link>https://sagarviradiya.dev/categories/</link>
     <description>Recent content in Categories on Sagar&#39;s Blog</description>
     <image>
       <title>Sagar&#39;s Blog</title>
-      <url>https://sagar-viradiya.dev/images/gde_badge_round.png</url>
-      <link>https://sagar-viradiya.dev/images/gde_badge_round.png</link>
+      <url>https://sagarviradiya.dev/images/gde_badge_round.png</url>
+      <link>https://sagarviradiya.dev/images/gde_badge_round.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <atom:link href="https://sagar-viradiya.dev/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://sagarviradiya.dev/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
