@@ -177,7 +177,7 @@ jobs:
 
 In the above workflow, `Set up authentication` step is exactly doing what we saw above to restore the service account JSON file on the CI machine for the GitHub environment variable. After setting up credentials it runs the gradle command from plugin to verify profile. 
 
-This is all you need to detect regression in your baseline profile setup. You can check both workflows we saw in my [repo](https://github.com/sagar-viradiya/auto-benchmark/tree/release)for reference. 
+This is all you need to detect regression in your baseline profile setup. You can check both workflows we saw in my [repo](https://github.com/sagar-viradiya/auto-benchmark/tree/release) for reference. 
 
 One important thing that I want to highlight here is, this plugin is only to detect the performance dip below tolerance percentage and to fail fast on CI. You can go further and collect these benchmark run results to visualise on a dashboard. Monitoring macro-benchmark results on a dashboard would give you more insights into app performance over time. You can refer to [this](https://github.com/android/performance-samples/tree/main/MacrobenchmarkSample/ftl) performance sample repo guide to know how it can be done through GCloud Monitoring. Also, [Py ⚔](https://p-y.wtf/)published a [script](https://blog.p-y.wtf/a-script-to-compare-two-macrobenchmarks-runs) that Square uses to compare two benchmark runs. Perhaps these are good starting points to build a dashboard around your macro-benchmark runs.
 
