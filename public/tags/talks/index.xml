@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Sagar&#39;s Blog</title>
-    <link>https://sagarviradiya.dev/</link>
-    <description>Recent content on Sagar&#39;s Blog</description>
+    <title>talks on Sagar&#39;s Blog</title>
+    <link>https://sagarviradiya.dev/tags/talks/</link>
+    <description>Recent content in talks on Sagar&#39;s Blog</description>
     <image>
       <title>Sagar&#39;s Blog</title>
       <url>https://sagarviradiya.dev/images/gde_badge_round.png</url>
@@ -11,15 +11,7 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 16 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://sagarviradiya.dev/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Automating Baseline Profile end-to-end on CI</title>
-      <link>https://sagarviradiya.dev/posts/automating-baseline-profile/</link>
-      <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://sagarviradiya.dev/posts/automating-baseline-profile/</guid>
-      <description>Baseline profile CI automation</description>
-    </item>
+    <atom:link href="https://sagarviradiya.dev/tags/talks/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Talks</title>
       <link>https://sagarviradiya.dev/talks/</link>
