@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Internal test track on Sagar&#39;s Blog</title>
+    <link>https://sagarviradiya.dev/tags/internal-test-track/</link>
+    <description>Recent content in Internal test track on Sagar&#39;s Blog</description>
+    <image>
+      <title>Sagar&#39;s Blog</title>
+      <url>https://sagarviradiya.dev/images/gde_badge_round.png</url>
+      <link>https://sagarviradiya.dev/images/gde_badge_round.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 31 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://sagarviradiya.dev/tags/internal-test-track/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Modern Android app distribution with GitHub Actions Part — I</title>
+      <link>https://sagarviradiya.dev/posts/modern-app-distribution-part-01/</link>
+      <pubDate>Mon, 31 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://sagarviradiya.dev/posts/modern-app-distribution-part-01/</guid>
+      <description>Modern app distribution</description>
+    </item>
+  </channel>
+</rss>
