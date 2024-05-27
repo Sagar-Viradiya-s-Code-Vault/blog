@@ -1,6 +1,6 @@
 ---
 title: "My experience at Droidcon India 2019 🇮🇳"
-summary: Modern app distribution
+summary: Sharing my experience at Droidcon India 2019
 date: 2019-11-10
 weight: 1
 tags: ["Droidcon", "Conference", "Android", "Community"]

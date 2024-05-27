@@ -46,7 +46,14 @@
       <link>https://sagarviradiya.dev/posts/droidcon-india-experience/</link>
       <pubDate>Sun, 10 Nov 2019 00:00:00 +0000</pubDate>
       <guid>https://sagarviradiya.dev/posts/droidcon-india-experience/</guid>
-      <description>Modern app distribution</description>
+      <description>Sharing my experience at Droidcon India 2019</description>
+    </item>
+    <item>
+      <title>Kotlin DSL for runtime permissions</title>
+      <link>https://sagarviradiya.dev/posts/kotlin-dsl-for-runtime-permissions/</link>
+      <pubDate>Mon, 07 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://sagarviradiya.dev/posts/kotlin-dsl-for-runtime-permissions/</guid>
+      <description>A kotlin syntactic sugar on runtime permissions</description>
     </item>
     <item>
       <title>Talks</title>
