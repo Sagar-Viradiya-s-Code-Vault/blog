@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Kotlin on Sagar&#39;s Blog</title>
-    <link>https://sagarviradiya.dev/tags/kotlin/</link>
-    <description>Recent content in Kotlin on Sagar&#39;s Blog</description>
+    <title>Kotlin Coroutines on Sagar&#39;s Blog</title>
+    <link>https://sagarviradiya.dev/tags/kotlin-coroutines/</link>
+    <description>Recent content in Kotlin Coroutines on Sagar&#39;s Blog</description>
     <image>
       <title>Sagar&#39;s Blog</title>
       <url>https://sagarviradiya.dev/images/gde_badge_round.png</url>
@@ -11,15 +11,8 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 07 Oct 2019 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://sagarviradiya.dev/tags/kotlin/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Kotlin DSL for runtime permissions</title>
-      <link>https://sagarviradiya.dev/posts/kotlin-dsl-for-runtime-permissions/</link>
-      <pubDate>Mon, 07 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>https://sagarviradiya.dev/posts/kotlin-dsl-for-runtime-permissions/</guid>
-      <description>A kotlin syntactic sugar on runtime permissions</description>
-    </item>
+    <lastBuildDate>Mon, 17 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://sagarviradiya.dev/tags/kotlin-coroutines/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Eazy permissions</title>
       <link>https://sagarviradiya.dev/posts/eazy-permissions/</link>
