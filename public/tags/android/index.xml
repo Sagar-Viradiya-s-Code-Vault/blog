@@ -48,5 +48,12 @@
       <guid>https://sagarviradiya.dev/posts/eazy-permissions/</guid>
       <description>An introduction to the runtime permission library.</description>
     </item>
+    <item>
+      <title>Sugar koating Physics based Animation API</title>
+      <link>https://sagarviradiya.dev/posts/sugar-koating-animation-api/</link>
+      <pubDate>Fri, 09 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>https://sagarviradiya.dev/posts/sugar-koating-animation-api/</guid>
+      <description>A syntactic sugar on Android&amp;rsquo;s Physics based Animation API</description>
+    </item>
   </channel>
 </rss>
