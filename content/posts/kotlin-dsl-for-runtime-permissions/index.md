@@ -13,7 +13,7 @@ cover:
 
 A while back I open-sourced an Android library [**eazypermissions**](https://github.com/sagar-viradiya/eazypermissions) for runtime permissions which allows you to request permission within coroutines (no callback yay 🎉) and has support for LiveData as well. If you are interested you can read more about it 👇
 
-[Eazy permissions](https://proandroiddev.com/eazy-permissions-c574809bd682)
+[Eazy permissions]({{< ref "/content/posts/eazy-permissions/index.md" >}})
 
 The library now offers a Kotlin DSL to request permissions. In this post, we will discuss the DSL API and how to request permissions using the DSL. Let’s get started.
 
