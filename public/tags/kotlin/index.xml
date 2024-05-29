@@ -34,5 +34,12 @@
       <guid>https://sagarviradiya.dev/posts/sugar-koating-animation-api/</guid>
       <description>A syntactic sugar on Android&amp;rsquo;s Physics based Animation API</description>
     </item>
+    <item>
+      <title>Android Jetpack - NavigationUI</title>
+      <link>https://sagarviradiya.dev/posts/android-jetpack-navigation/</link>
+      <pubDate>Mon, 09 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>https://sagarviradiya.dev/posts/android-jetpack-navigation/</guid>
+      <description>Attaching jetpack navigation to Material components</description>
+    </item>
   </channel>
 </rss>
