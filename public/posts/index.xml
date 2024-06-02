@@ -76,5 +76,12 @@
       <guid>https://sagarviradiya.dev/posts/android-jetpack-navigation/</guid>
       <description>Attaching jetpack navigation to Material components</description>
     </item>
+    <item>
+      <title>The D8 Dexer</title>
+      <link>https://sagarviradiya.dev/posts/d8-dexer/</link>
+      <pubDate>Mon, 02 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>https://sagarviradiya.dev/posts/d8-dexer/</guid>
+      <description>New faster and optimised compiler</description>
+    </item>
   </channel>
 </rss>
