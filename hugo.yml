@@ -34,7 +34,7 @@ params:
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: false
+  comments: true
   hidemeta: false
   hideSummary: false
   showtoc: true
@@ -50,13 +50,13 @@ params:
     safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "127.0.0.1"
+    text: "Sagar Viradiya"
     icon: /apple-touch-icon.png
     iconHeight: 35
 
   # profile-mode
   profileMode:
-    enabled: true # needs to be explicitly set
+    enabled: false # needs to be explicitly set
     title: Welcome to my digital 🏠!
     subtitle: "Hi there \U0001F44B. I’m Sagar Viradiya, a skilled and results-driven Android Developer with a strong background in Android app development and a passion for crafting high-quality apps and libraries. With a keen eye for quality and a deep understanding of the Android ecosystem, I build solutions that are not only functional but also delightful. Besides my 9to5, I love to give back to the community by blogging, speaking, and open-sourcing my ideas. My love for community led me to Google Developer Expert for Android. If I’m not crafting app/library then probably wondering about the universe’s existence."
     imageUrl: "images/gde_badge_round.png"
@@ -66,8 +66,8 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Title: "Hi there \U0001F44B. I’m Sagar Viradiya"
+    Content: "A skilled and results-driven Android Developer with a strong background in Android app development and a passion for crafting high-quality apps and libraries. With a keen eye for quality and a deep understanding of the Android ecosystem, I build solutions that are not only functional but also delightful. Besides my 9to5, I love to give back to the community by blogging, speaking, and open-sourcing my ideas. My love for community led me to Google Developer Expert for Android. If I’m not crafting app/library then probably wondering about the universe’s existence."
 
   socialIcons:
     - name: linkedin
@@ -135,4 +135,8 @@ markup:
     codeFences: true
     guessSyntax: true
     # lineNos: false
+
+services:
+  disqus:
+    shortname: disqus_viMbDBZglD
     
