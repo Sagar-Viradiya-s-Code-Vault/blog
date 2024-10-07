@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://sagarviradiya.dev/posts/compose-animation/</loc>
+    <lastmod>2024-10-07T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://sagarviradiya.dev/posts/automating-baseline-profile/</loc>
     <lastmod>2024-01-16T00:00:00+00:00</lastmod>
   </url><url>
@@ -38,6 +41,21 @@
     <loc>https://sagarviradiya.dev/posts/physics-based-animation/</loc>
     <lastmod>2017-08-17T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://sagarviradiya.dev/tags/animation/</loc>
+    <lastmod>2024-10-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sagarviradiya.dev/tags/compose/</loc>
+    <lastmod>2024-10-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sagarviradiya.dev/posts/</loc>
+    <lastmod>2024-10-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sagarviradiya.dev/</loc>
+    <lastmod>2024-10-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sagarviradiya.dev/tags/</loc>
+    <lastmod>2024-10-07T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://sagarviradiya.dev/tags/baselineprofile/</loc>
     <lastmod>2024-01-16T00:00:00+00:00</lastmod>
   </url><url>
@@ -45,15 +63,6 @@
     <lastmod>2024-01-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sagarviradiya.dev/tags/performance/</loc>
-    <lastmod>2024-01-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sagarviradiya.dev/posts/</loc>
-    <lastmod>2024-01-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sagarviradiya.dev/</loc>
-    <lastmod>2024-01-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sagarviradiya.dev/tags/</loc>
     <lastmod>2024-01-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sagarviradiya.dev/tags/callback/</loc>
@@ -109,9 +118,6 @@
   </url><url>
     <loc>https://sagarviradiya.dev/tags/tool-chain/</loc>
     <lastmod>2018-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sagarviradiya.dev/tags/animation/</loc>
-    <lastmod>2017-08-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sagarviradiya.dev/tags/physics-based-animation/</loc>
     <lastmod>2017-08-17T00:00:00+00:00</lastmod>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Compose on Sagar&#39;s Blog</title>
+    <link>https://sagarviradiya.dev/tags/compose/</link>
+    <description>Recent content in Compose on Sagar&#39;s Blog</description>
+    <image>
+      <title>Sagar&#39;s Blog</title>
+      <url>https://sagarviradiya.dev/images/gde_badge_round.png</url>
+      <link>https://sagarviradiya.dev/images/gde_badge_round.png</link>
+    </image>
+    <generator>Hugo -- 0.122.0</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 07 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://sagarviradiya.dev/tags/compose/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Compose Animation, Under The Hood - Part I</title>
+      <link>https://sagarviradiya.dev/posts/compose-animation/</link>
+      <pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://sagarviradiya.dev/posts/compose-animation/</guid>
+      <description>A deep dive on internals of Compose Animation</description>
+    </item>
+  </channel>
+</rss>
