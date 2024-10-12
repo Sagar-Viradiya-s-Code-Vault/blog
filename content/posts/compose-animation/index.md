@@ -142,7 +142,33 @@ Let’s zoom in further. How does Animation API calculate the value at a given p
 
 {{< figure src="images/function_of_function_of_playtime.png" >}}
 
-Internally it delegates to AnimationSpec. So real hero doing heavy lifting is not Animation but AnimationSpec. I kinda lied that Animation API powers Compose Animation. Ultimately complex math is in AnimationSpec. Brace yourself for some scary Math! 👻
+Internally it delegates to AnimationSpec. So real hero doing heavy lifting is not Animation but AnimationSpec. Here is the abstraction.
+
+```kotlin
+interface VectorizedAnimationSpec<V : AnimationVector> {
+    .
+    .
+    .
+    /**
+    * Calculates the value of the animation at given playtime, 
+    * with the provided start/end values, and start velocity.
+    */
+    fun getValueFromNanos(
+        playTimeNanos: Long,
+        initialValue: V,
+        targetValue: V,
+        initialVelocity: V
+    ): V
+    .
+    .
+    .
+}
+
+```
+
+Notice it accepts vector values and spits out a vector value. This is exactly what I mentioned earlier, animation internally deals with values of `AnimationVector` type.
+
+I kinda lied that Animation API powers Compose Animation. Ultimately complex math is in AnimationSpec. Let's see one of the implementations of AnimationSpec. Brace yourself for some scary Math! 👻
 
 For the scope of this blog, I am going to cover `FloatTweenSpec`. This is one of the specs you get out of the box. Before we jump into implementation details, let's first understand the key concept of `FloatTweenSpec`
 
@@ -151,7 +177,7 @@ For the scope of this blog, I am going to cover `FloatTweenSpec`. This is one of
 3. Delay: You can introduce a delay before the animation starts, allowing more control over when the animation begins.
 4. Interpolation: At the core of `FloatTweenSpec` is the interpolation of values from the start to the end over the animation's duration.
 
-Let's see the implementation details and see how it calculates the value.
+Let's see the implementation details and how it calculates the value.
 
 > *This is not full implementation. I trimmed this to focus on parts we are interested in. You can check full implementation [here](https://cs.android.com/androidx/platform/frameworks/support/+/androidx-main:compose/animation/animation-core/src/commonMain/kotlin/androidx/compose/animation/core/FloatAnimationSpec.kt;l=201?q=TweenSpec&ss=androidx%2Fplatform%2Fframeworks%2Fsupport).*
 
