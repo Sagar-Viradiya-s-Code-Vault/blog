@@ -39,6 +39,8 @@ Following is the order in which we will explore animation API internals.
 5. Transition API
 6. `animate*AsState` API
 
+For scope of this part we will focus on first three points.
+
 ## Compose Animation in Nutshell
 
 Animating is nothing but changing values from source to target rapidly for a given duration of animation. In the compose world this would be changing state values that your composable is reading which will cause a re-layout and redraw of your composable (I didn’t mention recomposition as this is something you don’t want. More on this later). Let’s see one example.
