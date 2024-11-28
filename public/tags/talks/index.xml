@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>talks on Sagar&#39;s Blog</title>
+    <title>Talks on Sagar&#39;s Blog</title>
     <link>https://sagarviradiya.dev/tags/talks/</link>
-    <description>Recent content in talks on Sagar&#39;s Blog</description>
+    <description>Recent content in Talks on Sagar&#39;s Blog</description>
     <image>
       <title>Sagar&#39;s Blog</title>
       <url>https://sagarviradiya.dev/images/gde_badge_round.png</url>
       <link>https://sagarviradiya.dev/images/gde_badge_round.png</link>
     </image>
-    <generator>Hugo -- 0.122.0</generator>
+    <generator>Hugo -- 0.139.2</generator>
     <language>en</language>
     <atom:link href="https://sagarviradiya.dev/tags/talks/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -17,8 +17,9 @@
       <link>https://sagarviradiya.dev/talks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://sagarviradiya.dev/talks/</guid>
-      <description>Dissecting Compose Animation (Not recorded) Animation plays a crucial role in App UI/UX. If not done correctly it can bite back leading to a bad app experience. A key to good animation is knowing API well and when to use which one.
-While it is crucial to know animation APIs on the consumer side it is essential to know the internals of Compose animation to be able to debug or optimize something which requires internal knowledge.</description>
+      <description>&lt;h2 id=&#34;dissecting-compose-animation-not-recorded&#34;&gt;Dissecting Compose Animation (Not recorded)&lt;/h2&gt;
+&lt;p&gt;Animation plays a crucial role in App UI/UX. If not done correctly it can bite back leading to a bad app experience. A key to good animation is knowing API well and when to use which one.&lt;/p&gt;
+&lt;p&gt;While it is crucial to know animation APIs on the consumer side it is essential to know the internals of Compose animation to be able to debug or optimize something which requires internal knowledge.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

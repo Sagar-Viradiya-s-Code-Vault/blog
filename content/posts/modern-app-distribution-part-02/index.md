@@ -13,7 +13,7 @@ cover:
 
 Hola folks 👋 , I'm back with part 2 of Modern Android app Distribution. In the first part, we saw how to automate the internal distribution using GitHub Actions and Internal App sharing. If you missed the first part you can check it 👇
 
-[Modern Android app distribution with GitHub Actions Part - I]({{< ref "/content/posts/modern-app-distribution-part-01/index.md" >}})
+[Modern Android app distribution with GitHub Actions Part - I]({{< ref "/posts/modern-app-distribution-part-01/index.md" >}})
 
 In this part, we will see how to automate your production release through GitHub Actions and test track.
 
