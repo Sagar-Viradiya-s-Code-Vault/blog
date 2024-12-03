@@ -12,7 +12,7 @@ cover:
 
 ## Context
 
-In [Part-I]({{< ref "/posts/compose-animation-part-02/index.md" >}}), I explained how the Compose animation system leverages the low-level animation API to calculate the animation value for a given frame (playtime of animation). If you haven’t read that I would highly recommend reading that first before continuing here.
+In [Part-I]({{< ref "/posts/compose-animation-part-01/index.md" >}}), I explained how the Compose animation system leverages the low-level animation API to calculate the animation value for a given frame (playtime of animation). If you haven’t read that I would highly recommend reading that first before continuing here.
 
 Things will get interesting in this part as we will explore how the Compose Animation system was built on top of Animation API. We will see how Animation API we saw in Part I gets consumed by Compose's Animatable API.
 
@@ -69,7 +69,7 @@ Animatable wraps three things within. Animation, State, and FrameListner.
 
 1.  FrameListener listens for the frames. When the next frame is ready to render, it gets a callback with frame time in nanoseconds.
 2.  Animatable then calculates the playtime of animation. By simply subtracting the first frame time (when the animation starts it stores the frame time) from the current frame time.
-3.  This playtime is then fed to Animation API. In Part I, we saw Animation API is a function of time. It accepts the playtime and calculates the value of animation at that particular playtime. Animation API then outputs the calculated value.
+3.  This playtime is then fed to Animation API. In [Part-I]({{< ref "/posts/compose-animation-part-01/index.md" >}}), we saw Animation API is a function of time. It accepts the playtime and calculates the value of animation at that particular playtime. Animation API then outputs the calculated value.
 4.  The calculated value is then applied to the state.
 
 The above 4 steps happen for each frame for the duration of Animation. Syncing with the system frame plays a crucial role here in keeping track of the progress of animation as well as calculating playtime.
