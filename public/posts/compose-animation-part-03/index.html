@@ -121,32 +121,32 @@ In this part we will see the implementation details of these two APIs.</p><p>If 
 </span></span><span class=line><span class=cl>    <span class=p>.</span>
 </span></span><span class=line><span class=cl>    <span class=p>.</span>
 </span></span><span class=line><span class=cl>    <span class=k>public</span> <span class=k>var</span> <span class=py>animation</span><span class=p>:</span> <span class=n>TargetBasedAnimation</span><span class=p>&lt;</span><span class=n>T</span><span class=p>,</span> <span class=n>V</span><span class=p>&gt;</span> <span class=k>by</span>
-</span></span><span class=line><span class=cl>            <span class=n>mutableStateOf</span><span class=p>(</span>
-</span></span><span class=line><span class=cl>                <span class=n>TargetBasedAnimation</span><span class=p>(</span>
-</span></span><span class=line><span class=cl>                    <span class=n>animationSpec</span><span class=p>,</span>
-</span></span><span class=line><span class=cl>                    <span class=n>typeConverter</span><span class=p>,</span>
-</span></span><span class=line><span class=cl>                    <span class=n>initialValue</span><span class=p>,</span>
-</span></span><span class=line><span class=cl>                    <span class=n>targetValue</span><span class=p>,</span>
-</span></span><span class=line><span class=cl>                    <span class=n>initialVelocityVector</span>
-</span></span><span class=line><span class=cl>                <span class=p>)</span>
+</span></span><span class=line><span class=cl>        <span class=n>mutableStateOf</span><span class=p>(</span>
+</span></span><span class=line><span class=cl>            <span class=n>TargetBasedAnimation</span><span class=p>(</span>
+</span></span><span class=line><span class=cl>                <span class=n>animationSpec</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>                <span class=n>typeConverter</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>                <span class=n>initialValue</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>                <span class=n>targetValue</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>                <span class=n>initialVelocityVector</span>
 </span></span><span class=line><span class=cl>            <span class=p>)</span>
-</span></span><span class=line><span class=cl>            <span class=k>private</span> <span class=k>set</span>
+</span></span><span class=line><span class=cl>        <span class=p>)</span>
+</span></span><span class=line><span class=cl>        <span class=k>private</span> <span class=k>set</span>
 </span></span><span class=line><span class=cl>    <span class=p>.</span>
 </span></span><span class=line><span class=cl>    <span class=p>.</span>
 </span></span><span class=line><span class=cl>    <span class=p>.</span>
 </span></span><span class=line><span class=cl>    <span class=k>override</span> <span class=k>var</span> <span class=py>value</span><span class=p>:</span> <span class=n>T</span> <span class=k>by</span> <span class=n>mutableStateOf</span><span class=p>(</span><span class=n>initialValue</span><span class=p>)</span>
-</span></span><span class=line><span class=cl>    <span class=k>internal</span> <span class=k>set</span>
+</span></span><span class=line><span class=cl>        <span class=k>internal</span> <span class=k>set</span>
 </span></span><span class=line><span class=cl>    <span class=p>.</span>
 </span></span><span class=line><span class=cl>    <span class=p>.</span>
 </span></span><span class=line><span class=cl>    <span class=p>.</span>
 </span></span><span class=line><span class=cl>    <span class=k>internal</span> <span class=k>fun</span> <span class=nf>onPlayTimeChanged</span><span class=p>(</span><span class=n>playTimeNanos</span><span class=p>:</span> <span class=n>Long</span><span class=p>,</span> <span class=n>scaleToEnd</span><span class=p>:</span> <span class=n>Boolean</span><span class=p>)</span> <span class=p>{</span>
-</span></span><span class=line><span class=cl>            <span class=k>val</span> <span class=py>playTime</span> <span class=p>=</span> <span class=k>if</span> <span class=p>(</span><span class=n>scaleToEnd</span><span class=p>)</span> <span class=n>animation</span><span class=p>.</span><span class=n>durationNanos</span> <span class=k>else</span> <span class=n>playTimeNanos</span>
-</span></span><span class=line><span class=cl>            <span class=k>value</span> <span class=p>=</span> <span class=n>animation</span><span class=p>.</span><span class=n>getValueFromNanos</span><span class=p>(</span><span class=n>playTime</span><span class=p>)</span>
-</span></span><span class=line><span class=cl>            <span class=n>velocityVector</span> <span class=p>=</span> <span class=n>animation</span><span class=p>.</span><span class=n>getVelocityVectorFromNanos</span><span class=p>(</span><span class=n>playTime</span><span class=p>)</span>
-</span></span><span class=line><span class=cl>            <span class=k>if</span> <span class=p>(</span><span class=n>animation</span><span class=p>.</span><span class=n>isFinishedFromNanos</span><span class=p>(</span><span class=n>playTime</span><span class=p>))</span> <span class=p>{</span>
-</span></span><span class=line><span class=cl>                <span class=n>isFinished</span> <span class=p>=</span> <span class=k>true</span>
-</span></span><span class=line><span class=cl>            <span class=p>}</span>
+</span></span><span class=line><span class=cl>        <span class=k>val</span> <span class=py>playTime</span> <span class=p>=</span> <span class=k>if</span> <span class=p>(</span><span class=n>scaleToEnd</span><span class=p>)</span> <span class=n>animation</span><span class=p>.</span><span class=n>durationNanos</span> <span class=k>else</span> <span class=n>playTimeNanos</span>
+</span></span><span class=line><span class=cl>        <span class=k>value</span> <span class=p>=</span> <span class=n>animation</span><span class=p>.</span><span class=n>getValueFromNanos</span><span class=p>(</span><span class=n>playTime</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>        <span class=n>velocityVector</span> <span class=p>=</span> <span class=n>animation</span><span class=p>.</span><span class=n>getVelocityVectorFromNanos</span><span class=p>(</span><span class=n>playTime</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>        <span class=k>if</span> <span class=p>(</span><span class=n>animation</span><span class=p>.</span><span class=n>isFinishedFromNanos</span><span class=p>(</span><span class=n>playTime</span><span class=p>))</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>            <span class=n>isFinished</span> <span class=p>=</span> <span class=k>true</span>
 </span></span><span class=line><span class=cl>        <span class=p>}</span>
+</span></span><span class=line><span class=cl>    <span class=p>}</span>
 </span></span><span class=line><span class=cl><span class=p>}</span>
 </span></span></code></pre></div><blockquote><p><em>Again, this is the ultra trim-down version of the actual implementation.</em></p></blockquote><p>Let’s break down a simplified version of the <a href="https://cs.android.com/androidx/platform/frameworks/support/+/androidx-main:compose/animation/animation-core/src/commonMain/kotlin/androidx/compose/animation/core/Transition.kt;drc=03da7b0f4fe28c1031276b125af612ada99e9e49;l=1303"><code>TransitionAnimationState</code></a> class and understand how it works.</p><p>This class represents the internal state of child animation. It implements <code>State&lt;T></code>, making it observable in Compose. Whenever its value changes, the UI will recompose accordingly. This is what you get back when you create child animation on transition.</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-kotlin data-lang=kotlin><span class=line><span class=cl><span class=k>val</span> <span class=py>alpha</span> <span class=k>by</span> <span class=n>transition</span><span class=p>.</span><span class=n>animateFloat</span><span class=p>(</span>
 </span></span><span class=line><span class=cl>    <span class=n>label</span> <span class=p>=</span> <span class=s2>&#34;Alpha&#34;</span>
