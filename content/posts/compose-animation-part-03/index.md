@@ -231,32 +231,32 @@ public inner class TransitionAnimationState<T, V : AnimationVector>) : State<T> 
     .
     .
     public var animation: TargetBasedAnimation<T, V> by
-            mutableStateOf(
-                TargetBasedAnimation(
-                    animationSpec,
-                    typeConverter,
-                    initialValue,
-                    targetValue,
-                    initialVelocityVector
-                )
+        mutableStateOf(
+            TargetBasedAnimation(
+                animationSpec,
+                typeConverter,
+                initialValue,
+                targetValue,
+                initialVelocityVector
             )
-            private set
+        )
+        private set
     .
     .
     .
     override var value: T by mutableStateOf(initialValue)
-    internal set
+        internal set
     .
     .
     .
     internal fun onPlayTimeChanged(playTimeNanos: Long, scaleToEnd: Boolean) {
-            val playTime = if (scaleToEnd) animation.durationNanos else playTimeNanos
-            value = animation.getValueFromNanos(playTime)
-            velocityVector = animation.getVelocityVectorFromNanos(playTime)
-            if (animation.isFinishedFromNanos(playTime)) {
-                isFinished = true
-            }
+        val playTime = if (scaleToEnd) animation.durationNanos else playTimeNanos
+        value = animation.getValueFromNanos(playTime)
+        velocityVector = animation.getVelocityVectorFromNanos(playTime)
+        if (animation.isFinishedFromNanos(playTime)) {
+            isFinished = true
         }
+    }
 }
 ```
 > *Again, this is the ultra trim-down version of the actual implementation.*
