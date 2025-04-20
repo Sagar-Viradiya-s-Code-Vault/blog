@@ -74,6 +74,8 @@ params:
       url: "https://www.linkedin.com/in/sagarviradiya/"
     - name: github
       url: "https://github.com/sagar-viradiya"
+    - name: BlueSky
+      url: "https://bsky.app/profile/sagar-viradiya.bsky.social"
     - name: Mastodon
       url: "https://androiddev.social/@sagar"
     - name: Threads
