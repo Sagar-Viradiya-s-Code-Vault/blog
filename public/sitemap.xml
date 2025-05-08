@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://sagarviradiya.dev/posts/vibe-coding-offline/</loc>
+    <lastmod>2025-05-08T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://sagarviradiya.dev/posts/compose-animation-part-03/</loc>
     <lastmod>2025-04-06T00:00:00+00:00</lastmod>
   </url><url>
@@ -47,19 +50,31 @@
     <loc>https://sagarviradiya.dev/posts/physics-based-animation/</loc>
     <lastmod>2017-08-17T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://sagarviradiya.dev/tags/ai/</loc>
+    <lastmod>2025-05-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sagarviradiya.dev/tags/jetbarains-ai/</loc>
+    <lastmod>2025-05-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sagarviradiya.dev/tags/llm/</loc>
+    <lastmod>2025-05-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sagarviradiya.dev/posts/</loc>
+    <lastmod>2025-05-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sagarviradiya.dev/</loc>
+    <lastmod>2025-05-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sagarviradiya.dev/tags/</loc>
+    <lastmod>2025-05-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sagarviradiya.dev/tags/vibe-coding/</loc>
+    <lastmod>2025-05-08T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://sagarviradiya.dev/tags/animation/</loc>
     <lastmod>2025-04-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sagarviradiya.dev/tags/compose/</loc>
-    <lastmod>2025-04-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sagarviradiya.dev/posts/</loc>
-    <lastmod>2025-04-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sagarviradiya.dev/</loc>
-    <lastmod>2025-04-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sagarviradiya.dev/tags/</loc>
     <lastmod>2025-04-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sagarviradiya.dev/tags/baselineprofile/</loc>
