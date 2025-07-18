@@ -42,7 +42,7 @@ If you don’t have side project to try kotlin then don’t worry. You can still
 
 Learning programming language and writing code in that language is not big deal. What matters is how you write code that is readable to others and at the same time it uses ideal approach of writing code using language features. **“Idiomatic kotlin”** is the term that best describes above statement and it is not something that you get it quickly. As you keep using it you would come across ideal way to implement something you wrote previously. When you come across situation like this don’t blame yourself. It is perfectly fine to write code in a way you understood language at first. Realizing best approach and refactoring your approach to best approach is the key to **idiomatic kotlin**. It takes time to master a programming language and kotlin isn’t exception.
 
-Finally I would like to highlight few resources I use to keep up to date with kotlin.
+> Finally I would like to highlight few resources I use to keep up to date with kotlin.
 
 https://blog.jetbrains.com/kotlin
 
